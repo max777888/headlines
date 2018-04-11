@@ -7,4 +7,5 @@ application.debug = True
 def hello():
   return '<p>Hello world</p>'
 if __name__ == "__main__":
-  application.run()
+  #application.run()
+  application.run(host='0.0.0.0', threaded=True, port=5000)
