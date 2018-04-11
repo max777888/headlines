@@ -7,4 +7,4 @@ application.debug = True
 def hello():
   return '<p>Hello world</p>'
 if __name__ == "__main__":
-  aplication.run()
+  application.run()
